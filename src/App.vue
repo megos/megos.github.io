@@ -1,9 +1,9 @@
 <template>
   <v-app dark>
     <v-toolbar app>
-      <v-toolbar-title class="headline text-uppercase">
-        <span>Vuetify</span>
-        <span class="font-weight-light">MATERIAL DESIGN</span>
+      <v-toolbar-title class="headline">
+        <span>megos</span>
+        <span class="font-weight-light title">portfolio</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -36,3 +36,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.title {
+  margin-left: 10px;
+}
+</style>
