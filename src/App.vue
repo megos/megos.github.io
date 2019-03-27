@@ -6,12 +6,14 @@
         <span class="font-weight-light title">portfolio</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn
-        flat
-        href="https://github.com/vuetifyjs/vuetify/releases/latest"
-        target="_blank"
-      >
-        <span class="mr-2">Latest Release</span>
+      <v-btn flat disabled>
+        <span class="mr-2">Skills</span>
+      </v-btn>
+      <v-btn flat disabled>
+        <span class="mr-2">Works</span>
+      </v-btn>
+      <v-btn flat disabled>
+        <span class="mr-2">hobbies</span>
       </v-btn>
     </v-toolbar>
 
