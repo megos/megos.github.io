@@ -1,5 +1,9 @@
 # megos
 
+> Portfolio
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a14eec9b-d30a-440d-8c8f-23eca3c75d71/deploy-status)](https://app.netlify.com/sites/megos/deploys)
+
 ## Project setup
 ```
 yarn install
