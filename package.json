@@ -17,6 +17,7 @@
     "@vue/cli-service": "^3.5.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
+    "eslint-config-megos": "https://github.com/megos/eslint-config-megos.git",
     "eslint-plugin-vue": "^5.0.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.1",
@@ -30,10 +31,8 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended"
+      "eslint-config-megos"
     ],
-    "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
     }
