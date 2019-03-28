@@ -1,46 +1,53 @@
 <template>
   <v-app dark>
     <v-toolbar app>
-      <v-toolbar-title class="headline">
-        <span>megos</span>
-        <span class="font-weight-light title">portfolio</span>
+      <v-toolbar-title
+        class="headline"
+      >
+        <v-btn
+          flat
+          large
+          @click="$router.push('/')"
+        >
+          <span class="title">megos</span>
+          <span class="font-weight-light title">portfolio</span>
+        </v-btn>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn flat disabled>
+      <v-spacer />
+      <v-btn
+        flat
+        @click="$router.push('Skills')"
+      >
         <span class="mr-2">Skills</span>
       </v-btn>
-      <v-btn flat disabled>
+      <v-btn
+        flat
+        disabled
+      >
         <span class="mr-2">Works</span>
       </v-btn>
-      <v-btn flat disabled>
+      <v-btn
+        flat
+        disabled
+      >
         <span class="mr-2">hobbies</span>
       </v-btn>
     </v-toolbar>
 
     <v-content>
-      <Top />
+      <router-view />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Top from './components/Top'
 
 export default {
   name: 'App',
-  components: {
-    Top
-  },
-  data () {
+  data() {
     return {
       //
     }
-  }
+  },
 }
 </script>
-
-<style scoped>
-.title {
-  margin-left: 10px;
-}
-</style>
