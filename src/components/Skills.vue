@@ -1,10 +1,20 @@
 <template>
   <v-container>
-    <cloud
-      :data="words"
-      :font-size-mapper="fontSizeMapper"
-      :font="font"
-    />
+    <v-layout
+      text-xs-center
+      wrap
+    >
+      <v-flex xs12>
+        <h2 class="headline font-weight-bold mb-3">
+          Skills
+        </h2>
+        <cloud
+          :data="words"
+          :font-size-mapper="fontSizeMapper"
+          :font="font"
+        />
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
 
