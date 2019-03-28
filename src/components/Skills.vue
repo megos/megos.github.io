@@ -3,6 +3,7 @@
     <cloud
       :data="words"
       :font-size-mapper="fontSizeMapper"
+      :font="font"
     />
   </v-container>
 </template>
@@ -32,6 +33,7 @@ export default {
       { text: 'Docker', value: 100 },
     ],
     fontSizeMapper: word => Math.log2(word.value) * 10,
+    font: 'Impact',
   }),
 }
 </script>
