@@ -1,14 +1,17 @@
 <template>
   <v-app dark>
     <v-toolbar app>
-      <v-toolbar-title class="headline">
+      <v-toolbar-title
+        class="headline"
+        @click="$router.push('/')"
+      >
         <span>megos</span>
         <span class="font-weight-light title">portfolio</span>
       </v-toolbar-title>
       <v-spacer />
       <v-btn
         flat
-        disabled
+        @click="$router.push('Skills')"
       >
         <span class="mr-2">Skills</span>
       </v-btn>
@@ -27,19 +30,15 @@
     </v-toolbar>
 
     <v-content>
-      <Top />
+      <router-view />
     </v-content>
   </v-app>
 </template>
 
 <script>
-import Top from './components/Top.vue'
 
 export default {
   name: 'App',
-  components: {
-    Top,
-  },
   data() {
     return {
       //
