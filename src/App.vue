@@ -3,10 +3,15 @@
     <v-toolbar app>
       <v-toolbar-title
         class="headline"
-        @click="$router.push('/')"
       >
-        <span>megos</span>
-        <span class="font-weight-light title">portfolio</span>
+        <v-btn
+          flat
+          large
+          @click="$router.push('/')"
+        >
+          <span class="title">megos</span>
+          <span class="font-weight-light title">portfolio</span>
+        </v-btn>
       </v-toolbar-title>
       <v-spacer />
       <v-btn
@@ -46,9 +51,3 @@ export default {
   },
 }
 </script>
-
-<style scoped>
-.title {
-  margin-left: 10px;
-}
-</style>
