@@ -5,14 +5,23 @@
         <span>megos</span>
         <span class="font-weight-light title">portfolio</span>
       </v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-btn flat disabled>
+      <v-spacer />
+      <v-btn
+        flat
+        disabled
+      >
         <span class="mr-2">Skills</span>
       </v-btn>
-      <v-btn flat disabled>
+      <v-btn
+        flat
+        disabled
+      >
         <span class="mr-2">Works</span>
       </v-btn>
-      <v-btn flat disabled>
+      <v-btn
+        flat
+        disabled
+      >
         <span class="mr-2">hobbies</span>
       </v-btn>
     </v-toolbar>
@@ -24,18 +33,18 @@
 </template>
 
 <script>
-import Top from './components/Top'
+import Top from './components/Top.vue'
 
 export default {
   name: 'App',
   components: {
-    Top
+    Top,
   },
-  data () {
+  data() {
     return {
       //
     }
-  }
+  },
 }
 </script>
 

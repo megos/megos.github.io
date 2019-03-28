@@ -10,7 +10,7 @@
           class="my-3"
           contain
           height="200"
-        ></v-img>
+        />
       </v-flex>
 
       <v-flex mb-4>
@@ -26,7 +26,9 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">Links</h2>
+        <h2 class="headline font-weight-bold mb-3">
+          Links
+        </h2>
 
         <v-layout justify-center>
           <a
@@ -45,32 +47,32 @@
 </template>
 
 <script>
-  export default {
-    data: () => ({
-      links: [
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/tmegos'
-        },
-        {
-          text: 'GitHub',
-          href: 'https://github.com/megos'
-        },
-        {
-          text: 'GitLab',
-          href: 'https://gitlab.com/megos'
-        },
-        {
-          text: 'Speaker Deck',
-          href: 'https://speakerdeck.com/megos'
-        },
-        {
-          text: 'Hatena Blog',
-          href: 'https://tmegos.hatenablog.jp'
-        },
-      ],
-    })
-  }
+export default {
+  data: () => ({
+    links: [
+      {
+        text: 'Twitter',
+        href: 'https://twitter.com/tmegos',
+      },
+      {
+        text: 'GitHub',
+        href: 'https://github.com/megos',
+      },
+      {
+        text: 'GitLab',
+        href: 'https://gitlab.com/megos',
+      },
+      {
+        text: 'Speaker Deck',
+        href: 'https://speakerdeck.com/megos',
+      },
+      {
+        text: 'Hatena Blog',
+        href: 'https://tmegos.hatenablog.jp',
+      },
+    ],
+  }),
+}
 </script>
 
 <style>
