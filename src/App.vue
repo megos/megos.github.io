@@ -22,7 +22,7 @@
       </v-btn>
       <v-btn
         flat
-        disabled
+        @click="$router.push('Works')"
       >
         <span class="mr-2">Works</span>
       </v-btn>
