@@ -18,7 +18,18 @@
             />
           </template>
           <div class="py-3">
-            <h2 :class="`headline font-weight-light mb-3 ${d.color}--text`">
+            <a
+              v-if="d.href"
+              :href="d.href"
+            >
+              <h2 :class="`headline font-weight-light mb-3 ${d.color}--text`">
+                {{ d.title }}
+              </h2>
+            </a>
+            <h2
+              v-else
+              :class="`headline font-weight-light mb-3 ${d.color}--text`"
+            >
               {{ d.title }}
             </h2>
             <div>
@@ -34,12 +45,27 @@
 <script>
 export default {
   data: () => ({
-    data: [{
-      ym: '2018/03',
-      color: 'cyan',
-      title: 'hoge',
-      text: 'hogefuga',
-    }],
+    data: [
+      {
+        ym: '2018/03',
+        color: 'cyan',
+        title: 'has href',
+        href: 'https://megos.netlify.com',
+        text: 'hogefuga',
+      },
+      {
+        ym: '2018/03',
+        color: 'cyan',
+        title: 'no href',
+        text: 'hogefuga',
+      },
+    ],
   }),
 }
 </script>
+
+<style scoped>
+a {
+  text-decoration: none;
+}
+</style>
