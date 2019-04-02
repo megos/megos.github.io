@@ -33,3 +33,14 @@
     </v-layout>
   </v-container>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    years: [{
+      year: '2018',
+      color: 'cyan',
+    }],
+  }),
+}
+</script>
