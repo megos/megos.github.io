@@ -17,6 +17,12 @@
         <h1 class="display-2 font-weight-bold mb-3">
           megos
         </h1>
+
+        <v-img
+          src="https://img.shields.io/badge/status-looking%20for%20a%20job-yellow.svg"
+          class="my-3"
+          width="150"
+        />
         <p class="subheading font-weight-regular">
           Full stuck engineer (not stack)
         </p>
