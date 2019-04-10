@@ -4,7 +4,7 @@
       text-xs-center
       wrap
     >
-      <v-timeline>
+      <v-timeline class="content">
         <v-timeline-item
           v-for="(d, i) in data"
           :key="i"
@@ -21,6 +21,7 @@
             <a
               v-if="d.href"
               :href="d.href"
+              target="_blank"
             >
               <h2 :class="`headline font-weight-light mb-3 ${d.color}--text`">
                 {{ d.title }}
@@ -35,13 +36,14 @@
             <div>
               {{ d.text }}
             </div>
-            <v-img
-              v-if="d.img"
-              :src="require(`@/assets/${d.img}`)"
-              class="my-3"
-              contain
-              width="200"
-            />
+            <div>
+              <v-img
+                v-if="d.img"
+                :src="require(`@/assets/${d.img}`)"
+                class="my-3"
+                width="200"
+              />
+            </div>
             <v-chip
               v-for="(e, key) in d.env"
               :key="key"
@@ -64,15 +66,18 @@ export default {
         ym: '2012/12',
         color: 'cyan',
         title: '桜島風向情報',
-        text: '桜島の風向きをチェックするアプリ。iOS、Android対応',
+        text: '桜島の風向きをチェックするアプリ。iOS、Android対応。',
         img: 'sakurajima-wind.png',
         env: ['Objective-C', 'Java', 'PHP'],
       },
       {
-        ym: '2018/03',
+        ym: '2018/10',
         color: 'cyan',
-        title: 'no href',
-        text: 'hogefuga',
+        title: '桜島降灰予報',
+        href: 'https://sakurajima-ashfall.netlify.com',
+        text: '桜島の降灰予報をチェックするアプリ。iOS、Android対応。',
+        img: 'sakurajima-ashfall.png',
+        env: ['JavaScript', 'Vue.js', 'Onsen UI', 'Node.js'],
       },
     ],
   }),
@@ -82,5 +87,9 @@ export default {
 <style scoped>
 a {
   text-decoration: none;
+}
+
+.content {
+  width: 100%;
 }
 </style>
