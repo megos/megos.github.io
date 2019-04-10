@@ -39,6 +39,7 @@
             <div>
               <v-img
                 v-if="d.img"
+                class="my-3"
                 :src="require(`@/assets/${d.img}`)"
               />
             </div>
