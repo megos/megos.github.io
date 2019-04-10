@@ -40,7 +40,6 @@
               <v-img
                 v-if="d.img"
                 :src="require(`@/assets/${d.img}`)"
-                width="200"
               />
             </div>
             <v-chip
