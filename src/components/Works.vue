@@ -35,6 +35,13 @@
             <div>
               {{ d.text }}
             </div>
+            <v-img
+              v-if="d.img"
+              :src="require(`@/assets/${d.img}`)"
+              class="my-3"
+              contain
+              width="200"
+            />
           </div>
         </v-timeline-item>
       </v-timeline>
@@ -47,11 +54,11 @@ export default {
   data: () => ({
     data: [
       {
-        ym: '2018/03',
+        ym: '2012/12',
         color: 'cyan',
-        title: 'has href',
-        href: 'https://megos.netlify.com',
-        text: 'hogefuga',
+        title: '桜島風向情報',
+        text: '桜島の風向きをチェックするアプリ。iOS、Android対応',
+        img: 'sakurajima-wind.png',
       },
       {
         ym: '2018/03',
