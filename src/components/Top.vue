@@ -18,11 +18,12 @@
           megos
         </h1>
 
-        <v-img
+        <!-- v-img centering...? https://github.com/vuetifyjs/vuetify/issues/5757 -->
+        <img
           src="https://img.shields.io/badge/status-looking%20for%20a%20job-yellow.svg"
           class="my-3"
-          width="150"
-        />
+          width="150px"
+        >
         <p class="subheading font-weight-regular">
           Full stuck engineer (not stack)
         </p>
