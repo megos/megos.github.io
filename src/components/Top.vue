@@ -6,7 +6,7 @@
     >
       <v-flex xs12>
         <v-img
-          :src="require('../assets/avatar.png')"
+          :src="require('@/assets/avatar.png')"
           class="my-3"
           contain
           height="200"
