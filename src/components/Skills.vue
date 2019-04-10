@@ -38,7 +38,6 @@ export default {
       { text: 'Spring Framework', value: 70 },
       { text: 'Play Framework', value: 30 },
       { text: 'Shell', value: 100 },
-      { text: 'PHP', value: 10 },
       { text: 'SQL', value: 10 },
       { text: 'Docker', value: 100 },
     ],
