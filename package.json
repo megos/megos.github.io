@@ -14,7 +14,7 @@
     "vuetify": "^1.5.5"
   },
   "devDependencies": {
-    "@megos/eslint-config-vue": "^0.0.1",
+    "@megos/eslint-config-vue": "^0.0.2",
     "@vue/cli-plugin-babel": "^3.5.0",
     "@vue/cli-plugin-eslint": "^3.5.0",
     "@vue/cli-service": "^3.5.0",
