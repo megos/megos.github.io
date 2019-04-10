@@ -42,6 +42,13 @@
               contain
               width="200"
             />
+            <v-chip
+              v-for="(e, key) in d.env"
+              :key="key"
+              disabled="true"
+            >
+              {{ e }}
+            </v-chip>
           </div>
         </v-timeline-item>
       </v-timeline>
@@ -59,6 +66,7 @@ export default {
         title: '桜島風向情報',
         text: '桜島の風向きをチェックするアプリ。iOS、Android対応',
         img: 'sakurajima-wind.png',
+        env: ['Objective-C', 'Java', 'PHP'],
       },
       {
         ym: '2018/03',
