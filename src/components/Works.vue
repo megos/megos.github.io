@@ -17,7 +17,7 @@
               v-text="d.ym"
             />
           </template>
-          <div class="py-3">
+          <div>
             <a
               v-if="d.href"
               :href="d.href"
@@ -40,14 +40,13 @@
               <v-img
                 v-if="d.img"
                 :src="require(`@/assets/${d.img}`)"
-                class="my-3"
                 width="200"
               />
             </div>
             <v-chip
               v-for="(e, key) in d.env"
               :key="key"
-              disabled="true"
+              disabled
             >
               {{ e }}
             </v-chip>
