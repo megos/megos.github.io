@@ -17,13 +17,17 @@
         <h1 class="display-2 font-weight-bold mb-3">
           megos
         </h1>
-
-        <!-- v-img centering...? https://github.com/vuetifyjs/vuetify/issues/5757 -->
-        <img
-          src="https://img.shields.io/badge/status-looking%20for%20a%20job-yellow.svg"
-          class="my-3"
-          width="150px"
+        <a
+          target="_blank"
+          href="https://twitter.com/intent/tweet?screen_name=tmegos&ref_src=twsrc%5Etfw"
         >
+          <!-- v-img centering...? https://github.com/vuetifyjs/vuetify/issues/5757 -->
+          <img
+            src="https://img.shields.io/badge/status-looking%20for%20a%20job-yellow.svg"
+            class="my-3"
+            width="150px"
+          >
+        </a>
         <p class="subheading font-weight-regular">
           Full stuck engineer (not stack)
         </p>
