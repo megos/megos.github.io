@@ -15,7 +15,7 @@
 
       <v-flex mb-4>
         <h1 class="display-2 font-weight-bold mb-3">
-          megos
+          {{ name }}
         </h1>
         <a
           target="_blank"
@@ -29,7 +29,7 @@
           >
         </a>
         <p class="subheading font-weight-regular">
-          Full stuck engineer (not stack)
+          {{ catchphrase }}
         </p>
       </v-flex>
 
@@ -60,6 +60,8 @@
 <script>
 export default {
   data: () => ({
+    name: 'megos',
+    catchphrase: 'Front end enginner / Full stuck engineer (not stack)',
     links: [
       {
         text: 'Twitter',
