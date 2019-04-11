@@ -37,9 +37,7 @@
         xs12
         mb-5
       >
-        <h2 class="headline font-weight-bold mb-3">
-          Links
-        </h2>
+        <headline title="Links" />
 
         <v-layout justify-center>
           <a
@@ -58,7 +56,12 @@
 </template>
 
 <script>
+import Headline from '@/components/Headline'
+
 export default {
+  components: {
+    Headline,
+  },
   data: () => ({
     name: 'megos',
     catchphrase: 'Front end enginner / Full stuck engineer (not stack)',

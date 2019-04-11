@@ -4,6 +4,9 @@
       text-xs-center
       wrap
     >
+      <v-flex>
+        <headline title="Works" />
+      </v-flex>
       <v-timeline class="content">
         <work-item
           v-for="(work, i) in works"
@@ -17,10 +20,12 @@
 
 <script>
 import WorkItem from '@/components/WorkItem'
+import Headline from '@/components/Headline'
 
 export default {
   components: {
     WorkItem,
+    Headline,
   },
   data: () => ({
     works: [

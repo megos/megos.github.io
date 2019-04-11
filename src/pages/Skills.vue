@@ -5,9 +5,7 @@
       wrap
     >
       <v-flex xs12>
-        <h2 class="headline font-weight-bold mb-3">
-          Skills
-        </h2>
+        <headline title="Skills" />
         <cloud
           :data="words"
           :font-size-mapper="fontSizeMapper"
@@ -20,10 +18,12 @@
 
 <script>
 import Cloud from 'vue-d3-cloud'
+import Headline from '@/components/Headline'
 
 export default {
   components: {
     Cloud,
+    Headline,
   },
   data: () => ({
     words: [
