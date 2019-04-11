@@ -14,24 +14,11 @@
         </v-btn>
       </v-toolbar-title>
       <v-spacer />
-      <v-btn
-        flat
-        @click="$router.push('Skills')"
-      >
-        <span class="mr-2">Skills</span>
-      </v-btn>
-      <v-btn
-        flat
-        @click="$router.push('Works')"
-      >
-        <span class="mr-2">Works</span>
-      </v-btn>
-      <v-btn
-        flat
-        disabled
-      >
-        <span class="mr-2">hobbies</span>
-      </v-btn>
+      <toolbar-menu
+        v-for="(content, i) in contents"
+        :key="i"
+        :content="content"
+      />
     </v-toolbar>
 
     <v-content>
@@ -41,13 +28,15 @@
 </template>
 
 <script>
+import ToolbarMenu from '@/components/ToolbarMenu'
 
 export default {
   name: 'App',
-  data() {
-    return {
-      //
-    }
+  components: {
+    ToolbarMenu,
   },
+  data: () => ({
+    contents: ['Skills', 'Works', 'Hobbies'],
+  }),
 }
 </script>
