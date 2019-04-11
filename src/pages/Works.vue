@@ -5,62 +5,25 @@
       wrap
     >
       <v-timeline class="content">
-        <v-timeline-item
-          v-for="(d, i) in data"
+        <work-item
+          v-for="(work, i) in works"
           :key="i"
-          :color="d.color"
-          small
-        >
-          <template v-slot:opposite>
-            <span
-              :class="`headline font-weight-bold ${d.color}--text`"
-              v-text="d.ym"
-            />
-          </template>
-          <div>
-            <a
-              v-if="d.href"
-              :href="d.href"
-              target="_blank"
-            >
-              <h2 :class="`headline font-weight-light mb-3 ${d.color}--text`">
-                {{ d.title }}
-              </h2>
-            </a>
-            <h2
-              v-else
-              :class="`headline font-weight-light mb-3 ${d.color}--text`"
-            >
-              {{ d.title }}
-            </h2>
-            <div>
-              {{ d.text }}
-            </div>
-            <div>
-              <v-img
-                v-if="d.img"
-                class="my-3"
-                :src="require(`@/assets/${d.img}`)"
-              />
-            </div>
-            <v-chip
-              v-for="(e, key) in d.env"
-              :key="key"
-              disabled
-            >
-              {{ e }}
-            </v-chip>
-          </div>
-        </v-timeline-item>
+          :work="work"
+        />
       </v-timeline>
     </v-layout>
   </v-container>
 </template>
 
 <script>
+import WorkItem from '@/components/WorkItem'
+
 export default {
+  components: {
+    WorkItem,
+  },
   data: () => ({
-    data: [
+    works: [
       {
         ym: '2012/12',
         color: 'cyan',
