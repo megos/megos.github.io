@@ -11,7 +11,7 @@
     "vue": "2.6.10",
     "vue-d3-cloud": "0.1.6",
     "vue-router": "3.0.6",
-    "vuetify": "1.5.7"
+    "vuetify": "1.5.12"
   },
   "devDependencies": {
     "@megos/eslint-config-vue": "0.0.2",
