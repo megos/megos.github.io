@@ -26,11 +26,11 @@
         {{ work.text }}
       </div>
       <div>
-        <v-img
+        <img
           v-if="work.img"
-          class="my-3"
+          class="my-3 text-xs-center"
           :src="require(`@/assets/${work.img}`)"
-        />
+        >
       </div>
       <v-chip
         v-for="(e, key) in work.env"
@@ -57,5 +57,10 @@ export default {
 <style scoped>
 a {
   text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  max-height: 400px;
 }
 </style>
