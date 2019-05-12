@@ -82,6 +82,15 @@ export default {
         img: 'sakurajima-ashfall.png',
         env: ['JavaScript', 'Vue.js', 'Onsen UI', 'Node.js'],
       },
+      {
+        ym: '2019/02',
+        color: 'cyan',
+        title: 'Event Finder',
+        href: 'https://event-finder-jp.netlify.com',
+        text: 'connpassのイベントを検索できるアプリ。PC、スマートフォン対応。',
+        img: 'event-finder.png',
+        env: ['Vue.js', 'Vuetify'],
+      },
     ],
   }),
 }
