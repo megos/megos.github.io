@@ -91,6 +91,14 @@ export default {
         img: 'event-finder.png',
         env: ['Vue.js', 'Vuetify'],
       },
+      {
+        ym: '2019/05',
+        color: 'cyan',
+        title: '【非公式】鹿児島市のごみ分別LINE Bot',
+        text: '鹿児島市のゴミの分別方法を教えてくれるLINE Bot。',
+        img: 'waste-sorting-line-bot.png',
+        env: ['JavaScript'],
+      },
     ],
   }),
 }
