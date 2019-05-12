@@ -106,7 +106,7 @@ export default {
         href: 'https://ash-collection.netlify.com',
         text: '鹿児島市の灰を捨てる場所（宅地内降灰指定置場）を探すためのアプリ。',
         img: 'ash-collection.png',
-        env: ['Reacdt', 'Onsen UI', 'Leaflet'],
+        env: ['React', 'Onsen UI', 'Leaflet'],
       },
     ],
   }),
