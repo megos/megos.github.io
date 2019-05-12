@@ -61,7 +61,7 @@ export default {
         title: 'tax in',
         href: 'https://chrome.google.com/webstore/detail/tax-in/kingeeeofapnpefjkbphljcjofkpdbcl?hl=ja',
         text: '税抜価格から税込価格を表示するためのChrome拡張。',
-        img: 'taxin.jpg',
+        img: 'taxin.png',
         env: ['JavaScript', 'Vue.js'],
       },
       {
