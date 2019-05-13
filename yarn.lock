@@ -8299,10 +8299,10 @@ vue-cli-plugin-vuetify@0.5.0:
   resolved "https://registry.yarnpkg.com/vue-cli-plugin-vuetify/-/vue-cli-plugin-vuetify-0.5.0.tgz#14c9a61884da58cf6aaf8ff3309044931907f184"
   integrity sha512-TigfiZUs7SN3Z6uxKilqJUtYxte8vp0F4QxabCli6hkKPqU97JzAZc3P7AL6omkRAd2DMI26fOrIGjuALTvXww==
 
-vue-d3-cloud@0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/vue-d3-cloud/-/vue-d3-cloud-0.1.6.tgz#de11559093f6d2fe694e9648e9b6ecad75436093"
-  integrity sha512-oH8CIKBuraRut8adi7quIGKam7gEgKN6dy0jBnyL678OrT4JAcLKKbFddOOmfudP4Z3s4eLTb4PjHVtkntvWwQ==
+vue-d3-cloud@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/vue-d3-cloud/-/vue-d3-cloud-0.2.0.tgz#8afbb67409b6681c72f44b7c78dd9d759e7d8a55"
+  integrity sha512-ALLN5RXXfb31J9w0CySZOcg8B57fkvHWFVg6ZlHXe6O3xKq+qsUNZkMYIe4LpsAy5BRgz+bG7NtAjQFydAhIfQ==
   dependencies:
     d3 "^5.7.0"
     d3-cloud "^1.2.5"

@@ -9,6 +9,7 @@
         <cloud
           :data="words"
           :font-size-mapper="fontSizeMapper"
+          :on-word-click="onWordClick"
           :font="font"
         />
       </v-flex>
@@ -42,7 +43,14 @@ export default {
       { text: 'Docker', value: 100 },
     ],
     fontSizeMapper: word => Math.log2(word.value) * 10,
+    onWordClick: () => {},
     font: 'Impact',
   }),
 }
 </script>
+
+<style scoped>
+.wordCloud >>> svg {
+  width: 100%;
+}
+</style>
