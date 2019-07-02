@@ -86,6 +86,10 @@ export default {
         text: 'Hatena Blog',
         href: 'https://tmegos.hatenablog.jp',
       },
+      {
+        text: 'LAPRAS',
+        href: 'https://lapras.com/public/R051YPL',
+      },
     ],
   }),
 }
