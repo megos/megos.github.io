@@ -23,7 +23,7 @@
         >
           <!-- v-img centering...? https://github.com/vuetifyjs/vuetify/issues/5757 -->
           <img
-            src="https://img.shields.io/badge/status-looking%20for%20a%20job-yellow.svg"
+            src="https://img.shields.io/badge/status-working%20remotely-green.svg"
             class="my-3"
             width="150px"
           >
