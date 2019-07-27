@@ -1,6 +1,6 @@
 <template>
   <v-btn
-    flat
+    text
     @click="$router.push(content)"
   >
     <span class="mr-2">{{ content }}</span>

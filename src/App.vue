@@ -1,11 +1,11 @@
 <template>
-  <v-app dark>
-    <v-toolbar app>
+  <v-app>
+    <v-toolbar>
       <v-toolbar-title
         class="headline"
       >
         <v-btn
-          flat
+          text
           large
           @click="$router.push('/')"
         >
