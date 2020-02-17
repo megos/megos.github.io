@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-toolbar>
+    <v-app-bar app>
       <v-toolbar-title
         class="headline"
       >
@@ -19,7 +19,7 @@
         :key="i"
         :content="content"
       />
-    </v-toolbar>
+    </v-app-bar>
 
     <v-content>
       <router-view />
