@@ -5,7 +5,10 @@
       wrap
     >
       <v-flex>
-        <headline title="Works" />
+        <headline
+          title="Works"
+          class="text-center"
+        />
       </v-flex>
       <v-timeline class="content">
         <work-item

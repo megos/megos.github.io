@@ -7,44 +7,49 @@
       <v-flex xs12>
         <v-img
           :src="require('@/assets/avatar.png')"
-          class="my-3"
+          class="my-4"
           contain
           height="200"
         />
       </v-flex>
 
-      <v-flex mb-4>
-        <h1 class="display-2 font-weight-bold mb-3">
+      <v-flex mb-6>
+        <h1 class="display-2 font-weight-bold mb-4 text-center">
           {{ name }}
         </h1>
-        <a
-          target="_blank"
-          href="https://twitter.com/intent/tweet?screen_name=tmegos&ref_src=twsrc%5Etfw"
-        >
-          <!-- v-img centering...? https://github.com/vuetifyjs/vuetify/issues/5757 -->
-          <img
-            src="https://img.shields.io/badge/status-working%20remotely-green.svg"
-            class="my-3"
-            width="150px"
+        <p class="text-center">
+          <a
+            target="_blank"
+            href="https://twitter.com/intent/tweet?screen_name=tmegos&ref_src=twsrc%5Etfw"
           >
-        </a>
-        <p class="subheading font-weight-regular">
+            <!-- v-img centering...? https://github.com/vuetifyjs/vuetify/issues/5757 -->
+            <img
+              src="https://img.shields.io/badge/status-working%20remotely-green.svg"
+              class="my-4"
+              width="150px"
+            >
+          </a>
+        </p>
+        <p class="subheading font-weight-regular text-center">
           {{ catchphrase }}
         </p>
       </v-flex>
 
       <v-flex
         xs12
-        mb-5
+        mb-12
       >
-        <headline title="Links" />
+        <headline
+          title="Links"
+          class="text-center"
+        />
 
         <v-layout justify-center>
           <a
             v-for="(link, i) in links"
             :key="i"
             :href="link.href"
-            class="subheading mx-3"
+            class="subheading mx-4"
             target="_blank"
           >
             {{ link.text }}
