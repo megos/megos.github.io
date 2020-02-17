@@ -36,7 +36,7 @@ export default {
     ToolbarMenu,
   },
   data: () => ({
-    contents: ['Skills', 'Works', 'Hobbies'],
+    contents: ['Skills', 'Works'],
   }),
 }
 </script>

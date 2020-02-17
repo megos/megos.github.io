@@ -69,7 +69,7 @@ export default {
   },
   data: () => ({
     name: 'megos',
-    catchphrase: 'Front end enginner / Full stuck engineer (not stack)',
+    catchphrase: 'Front end developer',
     links: [
       {
         text: 'Twitter',
