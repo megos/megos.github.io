@@ -12,7 +12,10 @@
         offset-xs4
         text-xs-center
       >
-        <headline title="Hobbies" />
+        <headline
+          title="Hobbies"
+          class="text-center"
+        />
       </v-flex>
       <v-flex
         xs4

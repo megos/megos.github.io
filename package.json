@@ -5,23 +5,22 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "yarn lint src"
   },
   "dependencies": {
     "vue": "2.6.11",
     "vue-d3-cloud": "0.2.0",
     "vue-router": "3.1.5",
-    "vuetify": "1.5.22"
+    "vuetify": "2.2.12"
   },
   "devDependencies": {
     "@megos/eslint-config-vue": "0.0.7",
     "@vue/cli-plugin-babel": "4.2.2",
-    "@vue/cli-plugin-eslint": "4.2.2",
     "@vue/cli-service": "4.2.2",
     "babel-eslint": "10.0.3",
     "eslint": "6.8.0",
-    "stylus": "0.54.7",
-    "stylus-loader": "3.0.2",
+    "sass": "1.25.0",
+    "sass-loader": "8.0.2",
     "vue-cli-plugin-vuetify": "2.0.5",
     "vue-template-compiler": "2.6.11",
     "vuetify-loader": "1.4.3"

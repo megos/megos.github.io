@@ -1,11 +1,11 @@
 <template>
-  <v-app dark>
-    <v-toolbar app>
+  <v-app>
+    <v-app-bar app>
       <v-toolbar-title
         class="headline"
       >
         <v-btn
-          flat
+          text
           large
           @click="$router.push('/')"
         >
@@ -19,7 +19,7 @@
         :key="i"
         :content="content"
       />
-    </v-toolbar>
+    </v-app-bar>
 
     <v-content>
       <router-view />
@@ -36,7 +36,7 @@ export default {
     ToolbarMenu,
   },
   data: () => ({
-    contents: ['Skills', 'Works', 'Hobbies'],
+    contents: ['Skills', 'Works'],
   }),
 }
 </script>

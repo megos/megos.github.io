@@ -5,7 +5,10 @@
       wrap
     >
       <v-flex xs12>
-        <headline title="Skills" />
+        <headline
+          title="Skills"
+          class="text-center"
+        />
         <cloud
           :data="words"
           :font-size-mapper="fontSizeMapper"
@@ -42,7 +45,7 @@ export default {
       { text: 'SQL', value: 10 },
       { text: 'Docker', value: 100 },
     ],
-    fontSizeMapper: word => Math.log2(word.value) * 10,
+    fontSizeMapper: (word) => Math.log2(word.value) * 10,
     onWordClick: () => {},
     font: 'Impact',
   }),

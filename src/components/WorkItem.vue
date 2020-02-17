@@ -12,13 +12,13 @@
         :href="work.href"
         target="_blank"
       >
-        <h2 :class="`headline font-weight-light mb-3 ${work.color}--text`">
+        <h2 :class="`headline font-weight-light mb-4 ${work.color}--text`">
           {{ work.title }}
         </h2>
       </a>
       <h2
         v-else
-        :class="`headline font-weight-light mb-3 ${work.color}--text`"
+        :class="`headline font-weight-light mb-4 ${work.color}--text`"
       >
         {{ work.title }}
       </h2>
@@ -28,7 +28,7 @@
       <div>
         <img
           v-if="work.img"
-          class="my-3 text-xs-center"
+          class="my-4 text-xs-center"
           :src="require(`@/assets/${work.img}`)"
         >
       </div>
