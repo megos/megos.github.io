@@ -26,6 +26,10 @@
     "vue-template-compiler": "2.6.11",
     "vuetify-loader": "1.4.4"
   },
+  "resolutions": {
+    "kind-of": "6.0.3",
+    "set-value": "3.0.2"
+  },
   "eslintConfig": {
     "root": true,
     "env": {
