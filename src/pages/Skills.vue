@@ -31,8 +31,10 @@ export default {
   },
   data: () => ({
     words: [
-      { text: 'Vue.js', value: 100 },
-      { text: 'React', value: 70 },
+      { text: 'Vue.js', value: 70 },
+      { text: 'React', value: 100 },
+      { text: 'JavaScript', value: 70 },
+      { text: 'TypeScript', value: 100 },
       { text: 'Knockout.js', value: 50 },
       { text: 'Node.js', value: 100 },
       { text: 'HTML5', value: 70 },
@@ -41,6 +43,8 @@ export default {
       { text: 'Kotlin', value: 50 },
       { text: 'Spring Framework', value: 70 },
       { text: 'Play Framework', value: 30 },
+      { text: 'Ruby', value: 5 },
+      { text: 'Ruby on Rails', value: 5 },
       { text: 'Shell', value: 100 },
       { text: 'SQL', value: 10 },
       { text: 'Docker', value: 100 },
