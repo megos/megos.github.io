@@ -11,6 +11,7 @@
         v-if="work.href"
         :href="work.href"
         target="_blank"
+        rel="noopener noreferrer"
       >
         <h2 :class="`headline font-weight-light mb-4 ${work.color}--text`">
           {{ work.title }}
