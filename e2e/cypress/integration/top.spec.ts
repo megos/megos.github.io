@@ -2,6 +2,7 @@ describe('Top', () => {
   it('megos', () => {
     cy.visit('/')
     cy.contains('megos')
+    cy.percySnapshot('top page')
   })
 
   it('click skills', () => {
@@ -14,5 +15,6 @@ describe('Top', () => {
     cy.visit('/')
     cy.contains('Works').click()
     cy.url().should('include', 'Works')
+    cy.percySnapshot('works page')
   })
 })
