@@ -49,7 +49,10 @@
           class="text-center"
         />
 
-        <v-layout justify-center>
+        <v-layout
+          justify-center
+          row
+        >
           <a
             v-for="(link, i) in links"
             :key="i"

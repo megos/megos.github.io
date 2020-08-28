@@ -10,7 +10,10 @@
           class="text-center"
         />
       </v-flex>
-      <v-timeline class="content">
+      <v-timeline
+        class="content"
+        :dense="$vuetify.breakpoint.name === 'xs'"
+      >
         <work-item
           v-for="(work, i) in works"
           :key="i"
