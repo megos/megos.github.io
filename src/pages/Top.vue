@@ -4,13 +4,18 @@
       text-xs-center
       wrap
     >
-      <v-flex xs12>
-        <v-img
-          :src="require('@/assets/avatar.png')"
-          class="my-4"
-          contain
-          height="200"
-        />
+      <v-flex
+        xs12
+      >
+        <div class="text-center">
+          <img
+            :src="require('@/assets/avatar.png')"
+            class="my-4 text-center"
+            contain
+            height="200"
+            aria-label="avatar"
+          >
+        </div>
       </v-flex>
 
       <v-flex mb-6>
