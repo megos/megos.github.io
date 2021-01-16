@@ -15,6 +15,8 @@ describe('Top', () => {
     cy.visit('/')
     cy.contains('Works').click()
     cy.url().should('include', 'Works')
+    // Wait for ripple
+    cy.wait(500)
     cy.percySnapshot('works page')
   })
 })
