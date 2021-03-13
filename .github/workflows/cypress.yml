@@ -7,13 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: bahmutov/npm-install@v1
-      - name: Start server in the background
-        run: npm run serve &
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
-          working-directory: e2e
+          start: npm run serve
           browser: chrome
           record: true
           # NOTE: Wait load images.
