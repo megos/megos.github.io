@@ -16,9 +16,9 @@
   "devDependencies": {
     "@megos/eslint-config-vue": "0.0.7",
     "@percy/cypress": "2.3.4",
-    "@vue/cli-plugin-babel": "4.5.11",
-    "@vue/cli-plugin-eslint": "4.5.11",
-    "@vue/cli-service": "4.5.11",
+    "@vue/cli-plugin-babel": "4.5.12",
+    "@vue/cli-plugin-eslint": "4.5.12",
+    "@vue/cli-service": "4.5.12",
     "babel-eslint": "10.1.0",
     "cypress": "6.7.1",
     "eslint": "7.22.0",
