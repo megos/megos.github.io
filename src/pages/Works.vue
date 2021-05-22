@@ -40,7 +40,7 @@ export default {
         color: 'cyan',
         title: '桜島風向情報',
         text: '桜島の風向きをチェックするアプリ。iOS、Android対応。',
-        img: 'sakurajima-wind.png',
+        img: 'sakurajima-wind.webp',
         env: ['Objective-C', 'Java', 'PHP'],
       },
       {
@@ -49,7 +49,7 @@ export default {
         title: 'asagao',
         href: 'https://github.com/megos/asagao',
         text: 'メディアに特化したTwitterクライアント。Twitter公式、Instagram、Pixivに対応。',
-        img: 'asagao.png',
+        img: 'asagao.webp',
         env: ['Electron', 'Vue.js', 'Onsen UI'],
       },
       {
@@ -58,7 +58,7 @@ export default {
         title: 'WebRTCビデオチャット',
         href: 'https://github.com/megos/webrtc',
         text: 'SkyWayとVue.jsを使ったビデオチャット。音声通話、ビデオ通話、画面共有が可能。',
-        img: 'webrtc.png',
+        img: 'webrtc.webp',
         env: ['Vue.js', 'Vuetify', 'SkyWay'],
       },
       {
@@ -67,7 +67,7 @@ export default {
         title: 'tax in',
         href: 'https://chrome.google.com/webstore/detail/tax-in/kingeeeofapnpefjkbphljcjofkpdbcl?hl=ja',
         text: '税抜価格から税込価格を表示するためのChrome拡張。',
-        img: 'taxin.png',
+        img: 'taxin.webp',
         env: ['JavaScript', 'Vue.js'],
       },
       {
@@ -76,7 +76,7 @@ export default {
         title: 'てげてげスケジュール（Experimental）',
         href: 'https://tegetege-schedule.netlify.com',
         text: 'シフト表作成を簡単に。遺伝的アルゴリズムを利用。',
-        img: 'schedule.png',
+        img: 'schedule.webp',
         env: ['Vue.js', 'Vuetify', 'Handsontable', 'Genetic Algorithm'],
       },
       {
@@ -85,7 +85,7 @@ export default {
         title: '桜島降灰予報',
         href: 'https://sakurajima-ashfall.netlify.com',
         text: '桜島の降灰予報をチェックするアプリ。iOS、Android対応。',
-        img: 'sakurajima-ashfall.png',
+        img: 'sakurajima-ashfall.webp',
         env: ['JavaScript', 'Vue.js', 'Onsen UI', 'Node.js'],
       },
       {
@@ -94,7 +94,7 @@ export default {
         title: 'Event Finder',
         href: 'https://event-finder-jp.netlify.com',
         text: 'connpassのイベントを検索できるアプリ。PC、スマートフォン対応。',
-        img: 'event-finder.png',
+        img: 'event-finder.webp',
         env: ['Vue.js', 'Vuetify'],
       },
       {
@@ -102,7 +102,7 @@ export default {
         color: 'cyan',
         title: '【非公式】鹿児島市のごみ分別LINE Bot',
         text: '鹿児島市のゴミの分別方法を教えてくれるLINE Bot。',
-        img: 'waste-sorting-line-bot.png',
+        img: 'waste-sorting-line-bot.webp',
         env: ['JavaScript'],
       },
       {
@@ -111,7 +111,7 @@ export default {
         title: '灰これ',
         href: 'https://ash-collection.netlify.com',
         text: '鹿児島市の灰を捨てる場所（宅地内降灰指定置場）を探すためのアプリ。',
-        img: 'ash-collection.png',
+        img: 'ash-collection.webp',
         env: ['React', 'Onsen UI', 'Leaflet'],
       },
     ],

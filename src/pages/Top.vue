@@ -9,7 +9,7 @@
       >
         <div class="text-center">
           <img
-            :src="require('@/assets/avatar.png')"
+            :src="require('@/assets/avatar.webp')"
             class="my-4 text-center"
             contain
             height="200"
