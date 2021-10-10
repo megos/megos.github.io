@@ -1241,25 +1241,25 @@
   dependencies:
     debug "^4.1.1"
 
-"@size-limit/file@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-6.0.0.tgz#bb8c681f7e1675aa749d0f44d1f835cfb7523b95"
-  integrity sha512-l7SYjIMl1JFi1eQFfDULSutMr10v1FP2cfA/f81y4DTSYx8hCYAN7S95MoQu052pF6tWpDwd8debilZRstlejQ==
+"@size-limit/file@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-6.0.1.tgz#6e333950c20e404c720a07cfacc4431b6ce01f4d"
+  integrity sha512-NurTGHCE2LByAZh1Rlqzjr9M1+0Hj49kpN1bNqDtH2RoTOHe02GUQbZadZcNmXEcMwoZr3/dxCaxb6txbiA9eA==
   dependencies:
     semver "7.3.5"
 
-"@size-limit/preset-app@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@size-limit/preset-app/-/preset-app-6.0.0.tgz#235f4bad3f630f2538a5e40399632a69468249aa"
-  integrity sha512-mn1H57OYpNKc6vObIxPH8rIMH7isIz7/TiP+ZRsDV1ESbZXNplnLaY9IKRraO5hJIpRZBNv38A/5U1kODjJz3A==
+"@size-limit/preset-app@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@size-limit/preset-app/-/preset-app-6.0.1.tgz#bb4712b6fd047965aaba3224001f2fed7873c441"
+  integrity sha512-gV97matHaNUZkPyO+GMfVA3Zqxo7+VKfsgJaTtx9d58SHSwwMjUVne9iS7TrlkYZ/8mqaqOJP3rDMobqsclBeQ==
   dependencies:
-    "@size-limit/file" "6.0.0"
-    "@size-limit/time" "6.0.0"
+    "@size-limit/file" "6.0.1"
+    "@size-limit/time" "6.0.1"
 
-"@size-limit/time@6.0.0":
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/@size-limit/time/-/time-6.0.0.tgz#ffd75b2b5bd7a8c53689d028d874f8bc23b689e0"
-  integrity sha512-aeH7PKfAiZVkGI9iIDUTzawaAX1WLoP0PWcfcsiVbAmMq08W1k4NlbylYa6m8DHp64DHgUh5bt9WyEW+/SvxbQ==
+"@size-limit/time@6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@size-limit/time/-/time-6.0.1.tgz#f8e695945358a5419bfafb7fb19694947504a5c7"
+  integrity sha512-ERupjIlhPMa0i71Pu9SZgOGy8VOflIxVKhTEC8Z8LGSi6m3Ycks9A+ZMj6fyJ0EovbHtbRyX9BPdPk3m9I6P/Q==
   dependencies:
     estimo "^2.2.8"
     react "^17.0.2"
