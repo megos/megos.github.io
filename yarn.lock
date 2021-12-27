@@ -1241,27 +1241,27 @@
   dependencies:
     debug "^4.1.1"
 
-"@size-limit/file@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-7.0.3.tgz#a9ba258b8d386f557384a025c4f06f404a3035ba"
-  integrity sha512-jizDZduAQ71KoraRWkj6ZSHPPo8SQ/KO4z1hZBl1ZujxwF7R6NLWKghNUtIQHsXpqyZWbK3VV39lOLx7qHuLjg==
+"@size-limit/file@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@size-limit/file/-/file-7.0.5.tgz#e8c8a610f2df408dba02a38dc283666db81948b0"
+  integrity sha512-DqyuUkmCSHwML6GVmeRr0v6Ih/P3pwmCu6RDWh2QxdDSec1ZnShmFUmcC6rLQDX7KW5aCjK3cs5FNd22Eaqapw==
   dependencies:
     semver "7.3.5"
 
-"@size-limit/preset-app@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/preset-app/-/preset-app-7.0.3.tgz#a7f6b708cbc273e76cd8386f643378f753330ee2"
-  integrity sha512-jm5BsJbLZwiz+3o11HwxuFjP6GYTJOinYGTOyY8pKe1h8xlypmqdjxOWkLhvua+LQ8gmr3byUdMA3B5xdhjP0w==
+"@size-limit/preset-app@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@size-limit/preset-app/-/preset-app-7.0.5.tgz#d2bf361ddd0225466edd9cad020dafb6615e8508"
+  integrity sha512-3x15jX0evlnglbbHwwOyHAriqqEyETm9tUQoj+byJmolfeubNWBnn7srl1+MN8HUg+2L/ebnKvDiirl701FyVw==
   dependencies:
-    "@size-limit/file" "7.0.3"
-    "@size-limit/time" "7.0.3"
+    "@size-limit/file" "7.0.5"
+    "@size-limit/time" "7.0.5"
 
-"@size-limit/time@7.0.3":
-  version "7.0.3"
-  resolved "https://registry.yarnpkg.com/@size-limit/time/-/time-7.0.3.tgz#fcfc4302dca698f18b477a171648d885627db6ef"
-  integrity sha512-3ZFd5wEp5hJ8RPavGz57QGYBSL0iyMKjrM6Yq5y4CHPS1r1WOzSClXDXdyLLogY40AxEX5jwJhK7aB4WC3CbUQ==
+"@size-limit/time@7.0.5":
+  version "7.0.5"
+  resolved "https://registry.yarnpkg.com/@size-limit/time/-/time-7.0.5.tgz#ab753d846d9e95f4826c542657f884c8a176fd0e"
+  integrity sha512-gBDuefQCh0ON7tr+bkoT3LCaGQXUB2ZCW53k/0sTyO4UTFEUE+vf8m3pfIqAq/0FkzuJ+GYg5sAmMGHV62S70w==
   dependencies:
-    estimo "^2.3.0"
+    estimo "^2.3.1"
     react "^17.0.2"
 
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
@@ -4007,10 +4007,10 @@ detect-node@^2.0.4:
   resolved "https://registry.yarnpkg.com/detect-node/-/detect-node-2.0.4.tgz#014ee8f8f669c5c58023da64b8179c083a28c46c"
   integrity sha512-ZIzRpLJrOj7jjP2miAtgqIfmzbxa4ZOr5jJc601zklsfEx9oTzmmj2nVpIPRpNlRTIh8lc1kyViIY7BWSGNmKw==
 
-devtools-protocol@0.0.901419:
-  version "0.0.901419"
-  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.901419.tgz#79b5459c48fe7e1c5563c02bd72f8fec3e0cebcd"
-  integrity sha512-4INMPwNm9XRpBukhNbF7OB6fNTTCaI8pzy/fXg0xQzAy5h3zL1P8xT3QazgKqBrb/hAYwIBizqDBZ7GtJE74QQ==
+devtools-protocol@0.0.937139:
+  version "0.0.937139"
+  resolved "https://registry.yarnpkg.com/devtools-protocol/-/devtools-protocol-0.0.937139.tgz#bdee3751fdfdb81cb701fd3afa94b1065dafafcf"
+  integrity sha512-daj+rzR3QSxsPRy5vjjthn58axO8c11j58uY0lG5vvlJk/EiOdCWOptGdkXDjtuRHr78emKq0udHCXM4trhoDQ==
 
 diffie-hellman@^5.0.0:
   version "5.0.3"
@@ -4523,15 +4523,16 @@ esrecurse@^4.1.0, esrecurse@^4.3.0:
   dependencies:
     estraverse "^5.2.0"
 
-estimo@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/estimo/-/estimo-2.3.0.tgz#c945123db5ed2af5a0ebfba0ae464a86a97a9a87"
-  integrity sha512-KlGk2zkLLyIyoD+BV1cdpzwjIQ6n7XmqCtwSZJDKIjLD7jcwNPdZ5ZM/Z/GsCFQQAJvxF9Ijpc9cApn8NQFcAQ==
+estimo@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/estimo/-/estimo-2.3.1.tgz#0adf3bebf7149d869921445febd3012588b9b899"
+  integrity sha512-IqQwkl4qQzajWPKa42K3t/l/wTe4jJdickc1i/fHYmX1SD7NexurWRkn15NwpOEkturUrqNiRHRCG+nBvxd/VA==
   dependencies:
     "@sitespeed.io/tracium" "^0.3.3"
     commander "^8.3.0"
+    find-chrome-bin "^0.1.0"
     nanoid "^3.1.30"
-    puppeteer-core "^11.0.0"
+    puppeteer-core "^12.0.1"
 
 estraverse@^4.1.1:
   version "4.3.0"
@@ -4933,6 +4934,11 @@ find-cache-dir@^3.0.0, find-cache-dir@^3.3.1:
     commondir "^1.0.1"
     make-dir "^3.0.2"
     pkg-dir "^4.1.0"
+
+find-chrome-bin@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/find-chrome-bin/-/find-chrome-bin-0.1.0.tgz#9fa3e6f86c275762c6d8be9da9af71e6fef05373"
+  integrity sha512-XoFZwaEn1R3pE6zNG8kH64l2e093hgB9+78eEKPmJK0o1EXEou+25cEWdtu2qq4DBQPDSe90VJAWVI2Sz9pX6Q==
 
 find-root@^1.1.0:
   version "1.1.0"
@@ -8133,13 +8139,13 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-puppeteer-core@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-11.0.0.tgz#d7aa19634948671fa35d14027fa45be807c340cb"
-  integrity sha512-hfQ39KNP0qKplQ86iaCNXHH9zpWlV01UFdggt2qffgWeCBF9KMavwP/k/iK/JidPPWfOnKZhDLSHZVSUr73DtA==
+puppeteer-core@^12.0.1:
+  version "12.0.1"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-12.0.1.tgz#b647ef14e0118537f0843b56a82a32d73ba528b0"
+  integrity sha512-lty/1LQkl9zkMuQGwipHEBU8VD1m+SEWXG7zpdwzKet8P6L3taBNOt6Y1LpptakVejKz8TqMSjaWcEjqEKPfjw==
   dependencies:
     debug "4.3.2"
-    devtools-protocol "0.0.901419"
+    devtools-protocol "0.0.937139"
     extract-zip "2.0.1"
     https-proxy-agent "5.0.0"
     node-fetch "2.6.5"
