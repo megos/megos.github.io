@@ -22,7 +22,7 @@
     "@vue/cli-plugin-eslint": "4.5.17",
     "@vue/cli-service": "4.5.17",
     "babel-eslint": "10.1.0",
-    "cypress": "9.5.3",
+    "cypress": "9.5.4",
     "eslint": "7.32.0",
     "sass": "1.50.0",
     "sass-loader": "10.2.1",
