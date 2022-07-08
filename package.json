@@ -10,7 +10,7 @@
   "dependencies": {
     "vue": "2.7.4",
     "vue-d3-cloud": "0.2.0",
-    "vue-router": "3.5.4",
+    "vue-router": "4.1.1",
     "vuetify": "2.6.7"
   },
   "devDependencies": {
