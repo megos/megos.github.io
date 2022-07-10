@@ -1,0 +1,35 @@
+body {
+  background-color: #212529;
+}
+
+img {
+  image-rendering: pixelated;
+}
+
+.profile { 
+  display: flex;
+  gap: 16px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex > div {
+  flex-grow: 1;
+}
+
+.nes-list.is-disc li::before {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .flex, .profile {
+    flex-direction: column;
+  }
+}
+
+/* https://github.com/nostalgic-css/NES.css/issues/434 */
+.nes-container.is-rounded.is-dark {
+  border-image-repeat: inherit;
+}
