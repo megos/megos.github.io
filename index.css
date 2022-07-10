@@ -19,14 +19,14 @@ img {
   flex-grow: 1;
 }
 
-.nes-list.is-disc li::before {
-  color: white;
-}
-
 @media (max-width: 600px) {
   .flex, .profile {
     flex-direction: column;
   }
+}
+
+.nes-list.is-disc li::before {
+  color: white;
 }
 
 /* https://github.com/nostalgic-css/NES.css/issues/434 */
