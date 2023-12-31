@@ -21,7 +21,7 @@ const links = [
   },
   {
     text: 'LAPRAS',
-    href: 'https://lapras.com/public/R051YPL',
+    href: 'https://lapras.com/public/megos',
   },
 ]
 
