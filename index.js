@@ -1,6 +1,6 @@
 const links = [
   {
-    text: 'Twitter',
+    text: 'X (formerly Twitter)',
     href: 'https://twitter.com/tmegos',
   },
   {
